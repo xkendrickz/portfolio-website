@@ -10,6 +10,14 @@ const projects = [
     githubUrl: "https://github.com/xkendrickz/gymflow",
     liveUrl: "https://gymflow-web-rho.vercel.app/",
   },
+  {
+    title: "KaraokeApp — Desktop Karaoke Player",
+    imagePaths: ["/images/KaraokeApp.jpg"],
+    description: "A full-featured desktop karaoke application built with WPF (.NET 4.8). Supports local files in all major formats (MP4, MKV, MPG, DAT, CDG, ZIP) via LibVLC, a song database with auto-import from filename conventions, playlist queue management, vocal channel switching, pitch and volume control, and YouTube playback via embedded WebView2.",
+    tags: ["C#", "WPF", ".NET 4.8", "SQLite"],
+    githubUrl: "https://github.com/xkendrickz/KaraokeApp",
+    liveUrl: "",
+  },
 ];
 
 export default function ProjectSection() {
